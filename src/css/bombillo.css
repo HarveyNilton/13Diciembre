@@ -1,0 +1,37 @@
+.container-focos{
+    background: black;
+    display: flex;
+  }
+
+  .foco{
+ 
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+  }
+
+  
+  .color{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background:yellow;
+   
+    animation: anim 0.9s linear infinite;
+  }
+
+  @keyframes anim{
+    0%{
+        background: rgb(238, 223, 19);
+        box-shadow: 0 0px 20px 4px rgb(250, 246, 7);
+    }
+    50%{
+        background: rgb(231, 15, 15);
+        box-shadow: 0 0px 20px 4px rgb(241, 13, 13);
+    }
+    100%{
+        background: rgb(238, 19, 227);
+        box-shadow: 0 0px 20px 4px rgb(240, 26, 204);
+    }
+  }
